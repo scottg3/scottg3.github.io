@@ -23,12 +23,6 @@ body a{
 body a:hover{
 	text-decoration:none;
 }
-.about-image {
-    max-width: 50%; 
-    height: auto;   
-    margin: 0 auto; 
-    display: block;
-}
 /*-- header --*/
 /*-- header --*/
 .search {
