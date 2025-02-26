@@ -119,22 +119,49 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <br>
 <div>
 	<img src="images/Mid_Fid_Proto.png" alt="Image of our CarlsEat stage 2 (Mid-Fidelity) app prototype. The app prototype is mostly similar to the previous prototype with added interaction flows (described below) and a new page that allows the user to select dietary restrictions to filter posts on their feed or to apply dietary tags to a post when they are in the process of making a post. There is also an added slider for users to rate their dish 1-10 when they post.">
-	<video width="320" height="240" controls>
+	<br>
+	<video width="320" height="240" controls aria-label="Video of interaction flow depicting how users can click the filter button from their feed to be redirected to a screen that allows them to click and select from a number of dietary restriction options so that when they click apply, they are returned to their feed with only posts matching the selected tags now visible.">
 		<source src="images/Filter Apply.mp4" type="video/mp4">
 	  Your browser does not support the video tag.
 	</video>
-	<video width="320" height="240" controls>
+	<video width="320" height="240" controls aria-label="Video of interaction flow depicting how users can click the button in the top right corner from either the feed or the settings page and are redirected to a page where they can create reviews and post them to the feed.">
 		<source src="images/Post Access.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
-	<video width="320" height="240" controls>
+	<video width="320" height="240" controls aria-label="Video of interaction flow depicting how users, when posting, are presented with the opportunity to upload an image of their dish, write a caption in a text field to describe it in as much detail as they like, and rate the dish on a 1 through 10 scale with a slider before posting.">
 		<source src="images/Slider on Post.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>	
-
-
 </div>
-
+<br>
+<br>
+<div class="panel-body panel_text">
+	<h4 style = "text-align: center;">Team UX Research Process</h4>
+		<ul>
+			<li>Our team prepared protocols for semi-structured interviews as well as focus groups that presented our interviewees with questions aimed at discovering their thought processes, likes and dislikes, and struggles when picking a meal, deciding which dining hall to go to, discussing/sharing meals with friends, interacting with and accomplishing tasks in apps, etc.</li>
+			<li>Ekow conducted two semi-structured interviews and Chloe, Zubeyda, and I each conducted focus groups of two students with each of us collecting information from students of different grades and meal plans so we could get a sense of differing perspectives among the student populace.</li>
+			<li>One sentiment that almost all of the students (across distinct general feelings about the dining halls) echoed was that the app would be useful to them in planning their meals (particularly if we could get a large portion of campus engaged on the app regularly).</li>
+		</ul>
+	<br>
+	<br>
+	<h4 style = "text-align: center;">Team Analysis Process</h4>
+		<ul>	
+			<li>After our interviews, we each axially coded another teammate’s transcript (breaking the transcripts into phenomena, conditions, actions, and consequences)</li>
+			<li>Next, the four of us met up and created an affinity diagram, chunking our axial codes (the specific phenomena, conditions, etc. that appeared in our transcript) into groups and seeing what was most prevalent.</li>
+			<li>To check out what we discovered, you can access our affinity diagram with the link below.</li>
+			<li><a href = "https://www.figma.com/board/MmStn5D4upkNxeDRG5cZjq/Affinity-Diagramming?node-id=0-1&p=f&t=ila6BSs4AMbtacyF-0">Affinity Diagram Hyperlink</a></li>
+			<li>After our affinity diagram, we developed an axial codebook of the themes we saw across interviews, which we then used to go back and code the transcripts from every interview we had conducted (two team members coded each transcript and came to a consensus through discussion on their readings of the transcript).</li>
+			<li>Finally, our team generated requirement statements (three of which you can see above) for our app prototype derived from our findings.</li>
+		</ul>
+	<br>
+	<h4 style = "text-align: center;">Descriptions of Interaction Flows</h4>
+		<ul>	
+			<li>Clicking the login button redirects the user to the feed.</li>
+			<li>Clicking the filter button on the feed page redirects the user to the dietary restrictions page, where they can select from a number of dietary tags before clicking the apply button to be returned to a feed that now only features meals matching the selected tags. There is also a back button on the filter page to return to the feed without selecting any tags.</li>
+			<li>From the feed page, the user can click the profile picture button to be redirected to the profile settings page, where there is a back button to return to the feed.</li>
+			<li>From either the feed or settings page, the user can click the plus button in the top right corner to be redirected to the post page, where they can design a post by uploading an image, typing a caption, and dragging a slider to rate their dish 1 through 10. The post page also features a button the user can click to be redirected to the dietary tag page but here, selecting dietary restrictions adds them as tags to the post the user is making (so when the user hits the back button or the apply button, the user returns to the post they are creating).</li>
+		</ul>
+</div>
 
 <!-- footer -->
 <div class="footer">
